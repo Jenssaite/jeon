@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> </title>
+        <style> body { background-color: #ffcccc; } </style>
+        </head>
+        <body>
+       <center> <h1>P E D I D O S</h1>
+
+<p><i>Hola!!! mi nombre es Jenni, si desea algún postre del recetario puede hacer pedidos por aquí.</i></p>
+
+<img src="IMAG/LOGO.png" alt="neni" width="300" height="200">
+  
+</table>
+<p><i>Por favor <b> a continuacion</b>, registrese</i></p>
+
+<div>
+   <label>Nombre del cliente:</label><input id="nombre" type="text">
+</div></br>
+<div>
+   <label>Fecha y hora de entrega:</label><input id="fecha" type="text">
+</div></br>
+<div>
+    <label>Dirección completa:</label><input id="direccion" type="text">
+ </div></br>
+ <div>
+    <label>Telefono:</label><input id="telefono" type="number">
+ </div></br>
+ <div>
+    <label>Nombre del postre a pedir:</label><input id="pedido" type="text">
+ </div></br>
+
+<input type="button" onclick="pregunta()" value="Enviar"/>
+</form>
+
+<script type="text/javascript">
+
+   function pregunta(){
+       let nombre = document.getElementById("nombre").value;
+       let fecha = document.getElementById("nombre").value;
+       let direccion = document.getElementById("direccion").value;
+       let telefono = document.getElementById("telefono").value;
+       let pedido = document.getElementById("pedido").value;
+       
+       alert("Se han enviado los datos.");
+
+      
+   }
+ </script>
+ <ul>
+    <li>
+        <a href="index.html">Volver a página de inicio...</a>
+    </li>
+</ul>
+ 
+
+</center> 
+
+</body>
+</html>

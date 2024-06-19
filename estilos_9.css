@@ -1,0 +1,106 @@
+/* Estilos generales */
+body {
+    background: rgb(204, 178, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#Container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgb(95, 13, 247);
+}
+
+header {
+    background: rgb(204, 178, 221);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(105, 6, 89);
+    border-bottom: 2px solid white;
+}
+
+nav {
+    background: rgb(210, 145, 240);
+    height: 50px;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    line-height: 50px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#content {
+    float: left;
+    width: 70%;
+    background: rgb(241, 146, 226);
+    min-height: 520px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 1px;
+    text-align: center;
+}
+
+aside {
+    float: right;
+    width: 28%;
+    background: rgb(210, 145, 240);
+    min-height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 1px;
+}
+
+.article {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.article h2 {
+    font-size: 30px;
+}
+
+/* Media Queries para dispositivos de pantalla más pequeña */
+@media only screen and (max-width: 768px) {
+    #content, aside {
+        float: none;
+        width: 100%;
+    }
+    
+    nav ul {
+        text-align: center;
+    }
+    
+    article {
+        text-align: center;
+    }
+    
+    aside {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header
